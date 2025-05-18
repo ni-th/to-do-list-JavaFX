@@ -12,5 +12,6 @@ import lombok.ToString;
 public class ToDoList {
     private String title;
     private String description;
-    private String Date;
+    private String date;
+    private Boolean isCompleted;
 }
